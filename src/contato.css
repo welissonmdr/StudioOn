@@ -1,0 +1,48 @@
+@import"../css/_nav.css";
+@import"../css/_base.css";
+
+
+
+
+@import"../css/_variables.css";
+
+@import"../css/_footer.css";
+
+
+header {
+    background: url("../images/notebook.png"), lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: 600px;
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+header > h2 {
+    color: #FFC501;
+    font-size: 120px;
+    font-weight: 900;
+    margin-top: 180px;
+    margin-right: 320px;
+}
+
+header > p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    width: 645px;
+    height: 67px;
+    margin-right: 270px;
+}
+
+.section1 {
+    width: 960px;
+    height: 1104px;
+    top: 559px;
+    font-size: 25px;
+   
+    
+}
+
+
